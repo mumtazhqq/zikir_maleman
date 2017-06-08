@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fullscreen Pageflip Layout with BookBlock</title>
+		<meta name="description" content="Fullscreen Pageflip Layout with BookBlock" />
+		<meta name="keywords" content="fullscreen pageflip, booklet, layout, bookblock, jquery plugin, flipboard layout, sidebar menu" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<script src="js/modernizr.custom.79639.js"></script>
+		<script src="js/zenscroll.js"></script>
+
+	</head>
+	<body>
+		<div id="container" class="container">	
+			<div class="menu-panel">
+				<h3>Daftar Isi</h3>
+				<ul id="menu-toc" class="menu-toc">
+					<li class="menu-toc-current"><a href="#item1">Prakata</a></li>
+					<li><a href="#item2">Sholat Tasbih</a></li>
+					<li><a href="#item3">Sholat Taubah</a></li>
+					<li><a href="#item4">Sholat Hajat</a></li>
+					<li><a href="#item5">Sujud Syukur</a></li>
+					<li><a href="#item6">Istighotsah</a></li>
+					<li><a href="#item7">Manaqib</a></li>
+					<li><a href="#item8">Sholat Witir</a></li>
+					<li><a href="#item9">Doa Sholat Witir</a></li>
+					<li><a href="#item10">Penutup</a></li>
+					<li><a href="#author">&larr; About</a></li>
+				</ul>
+			</div>
+
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item" id="item1">
+						<div class="content">
+							<div class="scroller">
+								<h2>Prakata</h2><br>
+								<p>Assalamu&rsquo;alaikum Wr. Wb.</p>
+								<p>Alhamdulillah, sholawat serta salam atas Rosulillah Nabi Muhammad SAW, yang senantiasa kita harap syafaatnya. Hormat ta&rsquo;dzim dan terima kasih yang tak terhingga kepada Yayasan dan Ta&rsquo;mir Masjid Sabilillah, serta para guru dan sesepuh, sehingga kami masih diberi kesempatan untuk melanjutkan amaliah ayahanda kami H.M. Salim Sa&rsquo;dan, sebagaimana lazimnya tahun-tahun yang lalu, untuk dapat melaksanakan Sholat Witir berjamaah di Masjid Sabilillah yang dilaksanakan setiap hari dimulai sejak tanggal malam ke-15 s/d malam ke-29 Romadlon :</p>
+								<p>Mulai Pukul : 23.00 wib s/d selesai</p>
+								<p>Dengan amaliah :</p>
+								<ul>
+									<li>Sholat Sunnah Tasbih</li>
+									<li>Sholat Sunnah Taubah</li>
+									<li>Sholat Sunnah Hajat</li>
+									<li>Sujud Syukur</li>
+									<li>Istighotsah</li>
+									<li>Sholat Witir</li>
+									<li>Do&rsquo;a</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item2">
+						<div class="content">
+							<div class="scroller">
+								<h2>Sholat Tasbih</h2><br>
+								<p>Sholat sunnah Tasbih dilaksanakan sebanyak 4 (empat) rokaat, dua kali salam atau tiap 2 rokaat salam dengan niat:</p>
+								<h2 class="arabic" style="text-align: right;">أصَلِّىْ سُنَّةَ التَّسْبِيْحِ رَكْعَتَيْنِ للهِ تَعَالى</h2>
+								<p><strong>Ushollii sunnatat tasbiihi rok-&lsquo;ataini lillaahi ta&rsquo;-aalaa</strong></p>
+								<p><em>Aku berniat sholat sunnah tasbih dua roka&rsquo;at karena Alloh ta&rsquo;ala</em></p>
+								<p>Didalam sholat ini selalu membaca tasbih:</p>
+								<h2 class="arabic" style="text-align: right;">سُبْحَانَ اللهِ وَالْحَمْدُ للهِ وَ لاَ إِلهَ إِلاَّ اللهُ وَ اللهُ أكْبَرْ</h2>
+								<p><strong>Sub-haanalloohi wal hamdu lillaahi wa laa ilaaha illallohu wallaahu akbar</strong></p>
+								<p><em>Maha suci Alloh, dan segala puji bagi Alloh, dan tiada Tuhan selain Alloh, dan Alloh Maha Besar.</em></p>
+								<p>Dengan tata cara atau aturan disaat kita :</p>
+								<ol>
+								<li>Berdiri : Al-fatihah + surat, baca tasbih 15x</li>
+								<li>Rukuk : do&rsquo;a, tasbih baca 10x</li>
+								<li>I&rsquo;tidal : do&rsquo;a, baca tasbih 10x</li>
+								<li>Sujud : do&rsquo;a, baca tasbih 10x</li>
+								<li>Duduk : do&rsquo;a, baca tasbih 10x</li>
+								<li>Sujud : do&rsquo;a, baca tasbih 10x</li>
+								<li><strong>Saat duduk istirahat </strong>setelah sujud kedua, tasbih sebanyak 10 x, baru berdiri untuk rokaat kedua. <strong>Atau </strong>jika <strong>dalam rokaat kedua</strong>, baca tasbih 10 x sebelum membaca tahiyat akhir.</li>
+								</ol>
+								<p>Sehingga jumlah keseluruhan bacaan tasbih dalam tiap roka&rsquo;at berjumlah 75 x. Jadi 75 bacaan x 4 rokaat, maka jumlah seluruhnya 300 bacaan tasbih.</p>
+								<p>(diambil dari Kitab Tuhfatut Thullab hal. 37)</p>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item3">
+						<div class="content">
+							<div class="scroller">
+								<h2>Sholat Sunnah Taubah</h2><br>
+								<p>Sholat sunnah Taubat ini dilaksanakan sebanyak 2 (dua) rokaat berdasarkan hadits Rosulullah SAW :</p>
+								<h2 class="arabic" style="text-align: right;">لَيْسَ عَبْدٌ يَذْنَبُ ذَنْبًا فَيَقُوْمُ فَيَتَوَضَّأُ وَيُصَلِّى رَكْعَتَيْنِ ثُمَّ يَسْتَغْفِرُ اللهَ إِلاَّ غَفَرَ لَهُ رواه أبو داود وغيره وحسنه الترمذى</h2>
+								<p>Artinya : <em>Tidak ada seorangpun yang me-lakukan suatu dosa kemudian dia berdiri, lalu wudlu dan sholat (taubat) dua rokaat dilanjutkan beristighfar (mohon ampun) kepada Alloh, kecuali dia telah diampuni oleh Allah SWT.</em></p>
+								<p>Sedangkan niat dari sholat taubat :</p>
+								<h2 class="arabic" style="text-align: right;">أصَلِّىْ سُنَّةَ التـَّوْبَةِ رَكْعَتَيْنِ للهِ تَعَالى</h2>
+								<p><strong>Ushollii sunnatat taubati rok-&lsquo;ataini lillaahi ta-&rsquo;aalaa</strong></p>
+								<p><em>Aku berniat sholat sunnah taubat dua roka&rsquo;at karena Alloh ta&rsquo;ala</em></p>
+								<p>(dari Kitab Tuhfatut Thullab hal. 36)</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item4">
+						<div class="content">
+							<div class="scroller">
+								<h2>Sholat Sunnah Hajat</h2><br>
+								<p>Sebagaimana ijazah dari Al maghfurullah Abuya KH. Abdulloh Umar Al Hafidz Semarang, bahwa tata cara sholat hajat adalah sebagai berikut :</p>
+								<p>Niat dari sholat hajat ini adalah :</p>
+								<h2 class="arabic" style="text-align: right;">أصَلِّىْ سُنَّةًلِقَضَاءِ الْحَاجَاتِ رَكْعَتَيْنِ للهِ تَعَالى</h2>
+								<p><strong>Ushollii sunnatan liqodloo-il haajaati rok-&lsquo;ataini lillaahi ta&rsquo;-aalaa</strong></p>
+								<p><em>Aku berniat sholat sunnah mohon keberhasilan hajat-hajat dua roka&rsquo;at karena Alloh ta&rsquo;ala</em></p>
+								<ul>
+									<li>Rokaat pertama setelah Al Fatihah membaca surat Al-Kafirun 11 kali</li>
+									<li>Rokaat kedua setelah Al Fatihah membaca surat Al-Ikhlas 3 kali</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="bb-item" id="item5">
+						<div class="content">
+							<div class="scroller">
+								<h2>Sujud Syukur</h2><br>
+								<p>Ijazah dari Al maghfurullah Abuya KH. Abdulloh Umar Al Hafidz Semarang pula, tentang tata cara sujud syukur sebagai berikut :</p>
+								<p>Niat sujud syukur :</p>
+								<h2 class="arabic" style="text-align: right;">نَوَيْتُ سَجْدَةَ الشُّكْرِ للهِ تـَعَالى</h2>
+								<p><strong>nawaitu saj-datasy syukri lillaahi ta-&rsquo;aalaa</strong></p>
+								<p><em>Aku berniat sujud syukur karena Alloh ta&rsquo;ala</em></p>
+								<ol>
+								<li>Setelah niat, kemudian takbiratul ihram (Allahu Akbar)</li>
+								<li>Sedekapkan kedua tangan sekedar tumakninah (sejenak) tanpa membaca apapun.</li>
+								<li>Langsung sujud (untuk berdo&rsquo;a)</li>
+								<li>Setelah selesai sujud, duduk dan salam.</li>
+								</ol>
+								<p>Didalam sujud, ungkapkan rasa syukur kita, is-tighfar dan berdo&rsquo;a apa yang kita hajatkan. Se-baiknya diawali dengan do&rsquo;anya Nabi Sulaiman yang tertera dalam Surat An Naml ayat 19 :</p>
+								<h2 class="arabic" style="text-align: right;">رَبِّ أوْزِعْنِى أنْ أشْكُرَ نِعْمَتَكَ الَّتِى أنْعَمْتَ عَلَيَّ وَعَلى وَالِدَيَّ وَأنْ أعْمَلَ صَالِحًا تَرْضَاهُ وَأدْخِلْنِى بِرَحْمَتِكَ فىِ عِبَادِكَ الصَّالِحِيْنَ</h2>
+								<p><strong>Robbi auzi&rsquo;-nii an asykuro ni&rsquo;matakal latii an-'amta &lsquo;alayya wa &lsquo;alaa waalidayya wa- an a'-mala shoolihan tardloohu wa ad-khilnii birohmatika fii &lsquo;ibaadikas shoolihiin</strong></p>
+								<p><em>Ya Tuhanku, tunjukilah aku untuk tetap men-syukuri ni&rsquo;mat-Mu yang telah Engkau anuge-rahkan kepadaku dan kepada ibu bapakku dan untuk mengerjakan amal saleh yang Engkau ridhoi, dan masukkanlah aku dengan rahmat-Mu ke dalam golongan hamba-Mu yang saleh</em></p>
+								<p>Atau sebagaimana yang ada di Surat Al-Ahqof ayat 15 yang berbunyi :</p>
+								<h2 class="arabic" style="text-align: right;">رَبِّ أوْزِعْنِى أنْ أشْكُرَ نِعْمَتَكَ الَّتِى أنْعَمْتَ عَلَيَّ وَعَلى وَالِدَيَّ وَأنْ أعْمَلَ صَالِحًا تَرْضَاهُ وَأصْلِحْ لِيْ فىِ ذُرِّيَّتِى إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ الْمُسْلِمِيْنَ</h2>
+								<p><strong>Robbi auzi&rsquo;-nii an asykuro ni&rsquo;ma-takal latii an-&lsquo;amta &lsquo;alayya wa &lsquo;alaa waalidayya wa an &lsquo;a'mala shoolihan tardloohu wa ash-lihlii fii dzurriyyatii innii tubtu ilaika wa innii minal muslimiin</strong></p>
+								<p><em>Ya Tuhanku, tunjukilah aku untuk men-syukuri ni&rsquo;mat yang telah Engkau berikan kepadaku dan kepada ibu bapakku dan supaya aku dapat berbuat amal yang saleh yang Engkau ridhai; berilah kebaikan kepadaku dengan (memberi kebaikan) kepada anak cucuku. Sesungguhnya aku bertaubat kepada Engkau dan sesungguh-nya aku termasuk orang yang berserah diri.</em></p>
+								<p>Yang kemudian dilanjutkan dengan do&rsquo;a apa saja yang kita khajatkan. Tumpahkan semua harapan kehadirat Allah SWT, pasti akan segera mendapat jalan keluar dengan ridlo Alloh SWT. Amin.</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item6">
+						<div class="content">
+							<div class="scroller">
+								<h2>Istighotsah</h2><br>
+								<p>Yakni membaca kalimah thoyyi-bah sebagaimana tertera pada hal berikut, dengan harapan memohon pertolongan kehadirat Alloh SWT.</p>
+								<p style="text-align: center;"><strong>Dengan nama Alloh yang Maha Pengasih lagi Maha Penyayang</strong></p>
+								<p style="text-align: center;"><strong>Al Fatihah</strong></p>
+								<h2 class="arabic" style="text-align: right;">أسْتــَغْفِرُ اللهَ الْعَظِيـْمَ</h2>
+								<p><strong>Astaghfirulloohal &lsquo;adziim 100 x</strong></p>
+								<p><em>Aku mohon ampun kepada Alloh yang Maha Agung</em></p>
+								<h2 class="arabic" style="text-align: right;">لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بــِاللهِ الْعَلِيِّ الْعَظِيـْم</h2>
+								<p><strong>Laa haula walaa quwwata illaa billaahil &lsquo;aliyyil adziim 100 x</strong></p>
+								<p><em>Tiada daya untuk menyingkir dari maksiat dan tidak ada kekuatan untuk taat, kecuali dengan pertolongan Alloh Yang Maha Tinggi lagi Maha Agung.</em></p>
+								<h2 class="arabic" style="text-align: right;">اللّهُمَّ صَلِّ عَلى سَيِّدِنَا مُحَمَّدٍ وَّعَلى آلِ سَيِّدِنَا مُحَمَّدٍ</h2>		
+								<p><strong>Alloohumma sholli &lsquo;alaa sayyidinaa Muhammadiw wa &lsquo;alaa aali sayyidinaa Muhammad 100 x</strong></p>
+								<p><em>Yaa Alloh tambahkanlah rahmat ta&rsquo;dhim atas pemimpin kami Nabi Muhammad dan atas keluarga pemimpin kami Muhammad</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا اللهُ يَا قَدِيْمُ</h2><p><strong>Yaa Alloh Yaaqodiim</strong></p>
+								<p><em>Wahai Alloh, wahai yang Maha Sedia tanpa Permulaan</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا سَمِيْعُ يَا بَصِيْرُ</h2>
+								<p><strong>Yaa samii-&lsquo;u yaa bashiir 100 x</strong></p>
+								<p><em>Wahai Yang Maha Mendengar, wahai Yang Maha Melihat</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا مُبْدِأ يَا خَالِقْ&nbsp;</h2>
+								<p><strong>Yaa mubdi-u yaa khooliq 100 x</strong></p>
+								<p><em>Wahai Yang Maha memulai, wahai Yang Maha Mencipta</em></p>
+								<h2 class="arabic" style="text-align: right;">لاَ إِلهَ إِلاَّ أنــْتَ سُبْحَانــَكَ إِنــِّيْ كُــنــْتُ مِنَ الظَّالِمِيْنَ</h2>
+								<p><strong>Laa ilaaha illaa anta subhaanaka innii kuntu minadh dhoolimiin 11x</strong></p>
+								<p><em>Tiada Tuhan melainkan Engkau, Maha suci Engkau, sesungguhnya kami berada dalam kedholiman.</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا حَفِيْظُ يَا نــَصِيْرُ يَا وَكــِيْلُ يَا اللهُ</h2>
+								<p><strong>Yaa hafiidhu yaa nashiiru yaa wakiilu yaa Allooh 100x</strong></p>
+								<p><em>Wahai Yang Maha Menjaga, wahai Yang Maha Menolong. Wahai yang Maha Mewakili. Wahai Alloh</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا فَـــتــَّاحُ يَا رَزَّاقُ</h2>
+								<p><strong>Yaa fattaahu yaa rozaaq 100 x</strong></p>
+								<p><em>Wahai yang Maha Membuka, wahai yang Maha Memberi Rizki </em></p>
+								<h2 class="arabic" style="text-align: right;">يَا حَيُّ يَا قَــيُّـوْمُ بــِرَحْمَتِكَ أسْتغِيْثُ</h2>
+								<p><strong>Yaa hayyu yaa qoyyuumu birohma-tika astaghiits 100x</strong></p>
+								<p><em>Wahai Yang Maha Hidup, wahai Yang Maha Berdiri Pribadi, dengan rahmat-Mu saya memohon pertolongan</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا هَادِيْ يَا عَـلِـيْمُ يَا خَبـــِيْرُ يَا مُبـــِيْنُ</h2>
+								<p><strong>Yaa haadii ya 'aliimu yaa khobiiru yaa mubiin 100x</strong></p>
+								<p><em>Wahai Yang Maha Memberi Petunjuk, wahai Yang Maha Mengetahui, wahai Yang Maha Mengetahui (hal yang nyata dan ghoib), wahai Yang Maha Nyata.</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا لَطـِيْفُ&nbsp;</h2>
+								<p><strong>Yaa lathiifu 129x</strong></p>
+								<p><em>Wahai yang Maha Belas Kasihan</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا بَدِيْعُ</h2>
+								<p><strong>Yaa badii-'u</strong></p>
+								<p><em>Wahai Yang Maha Pencipta (sesuatu yang baru)</em></p>
+								<h2 class="arabic" style="text-align: right;">يَا رَحْمنُ يَا رَحِيْمُ</h2>
+								<p><strong>Yaa rohmaanu yaa rohiim 100x</strong></p>
+								<p>Wahai Yang Maha Pengasih, wahai Yang Maha Penyayang</p>
+								<h2 class="arabic" style="text-align: right;">اللهُ أكْبَرْ 3&times; يَارَبنَا وَإِلهَنَا وَسَـيِّدَنــَـا أَنـْتَ مَوْلـنَا فَانـــْصُرْنــَـا عَلَى الْـقَوْمِ الْكَافِرِيــْنَ</h2>
+								<p><strong>Allaahu akbar 3x ya robaanaa wa ilaahanaa wa sayyidanaa anta maulana fanshurnaa &lsquo;alal qoumil kaafirin.</strong></p>
+								<p><em>Alloh Maha Besar&nbsp; 3 x. Wahai Pemelihara kami. Sesembahan kami dan Majikan kami, Engkau adalah Pelindung kami, maka tolonglah kami mengalahkan orang-orang kafir.</em></p>
+								<h2 class="arabic" style="text-align: right;">الإِخْلاَصْ + الفَلَقْ + النَّاسْ</h2>
+								<p><strong>Surat Al Ikhlash + Al Falq + An Naas</strong></p>
+								<p><em>Membaca Surat Al Ikhlas, Al Falaq dan An Naas</em></p>
+								<h2 class="arabic" style="text-align: right;"></h2>
+								<p><strong>Tahlil + Alfatihah</strong></p>
+								<br>
+								<br>
+
+								<hr />
+
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item7">
+						<div class="content">
+							<div class="scroller">
+								<h2>Pujian Manaqib</h2> 
+																
+								<h3 class="arabic" style="text-align: right;">عِبَادَ اللهْ رِجَالَ اللهْ</h2>
+								<p style="text-align: right;"><strong>&lsquo;Ibaadalloh rijaalalloh,</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">أغِيْثُوْنَ ِلأَجْلِ اللهْ</h2>
+								<p style="text-align: left;"><strong>aghiitsunaa li-ajlillah</strong></p>
+
+
+								<h3 class="arabic" style="text-align: right;">وَكُـوْ نُــوْا عَوْنَـــــنَا للهِ</h2>
+								<p style="text-align: right;"><strong>Wakuunu &lsquo;aunana lillah </strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">عَسىَ نَحْظىَ بِفَضْلِ اللهْ</h2>
+								<p style="text-align: left;"><strong> &lsquo;asa nahdhoo bi fadl-lillaah</strong></p>
+								<p style="text-align: left;"><em>Wahai hamba-hamba Alloh, wali-wali Alloh, Tolonglah kami karena Alloh.</em></p>
+								<p style="text-align: left;"><em>Jadilah kalian penolongan kami karena Alloh, semoga tercapai hajat karena anugerah Alloh&nbsp;</em></p>
+								<br>
+
+
+
+								<h3 class="arabic" style="text-align: right;">عَلىَ الْكَافىِ صَلاَةُ الله</h2>
+								<p style="text-align: right;"><strong>&lsquo;Alal kaafii sholaatulloh</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">عَلىَ الشَّفىِ سَلاَمُ الله</h2>
+								<p style="text-align: left;"><strong>&lsquo;alasy syaafii salaamulloh </strong></p>
+
+
+								<h3 class="arabic" style="text-align: right;">بِمُحْيِ الدِّيْنِ خَلِّصْنَا </h2>
+								<p style="text-align: right;"><strong>Bi muhyiddiini khollishnaa</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">مِنَ الْبَلْوَاءِ يَا اللهْ</h2>
+								<p style="text-align: left;"><strong>minal balwaa-i yaa Alloh.</strong></p>
+								<p style="text-align: left;"><em>Semoga rahmad Alloh atas Nabi yang mencukupi pengikutnya</em></p>
+								<p style="text-align: left;"><em>semoga salam Alloh tetap atas Nabi Nya yang menyembuhkan penyakit&nbsp;</em></p>
+								<br>
+
+
+								<h3 class="arabic" style="text-align: right;">وَ يَاأَقْطَابْ وَيَا أَنْجَابْ</h2>
+								<p style="text-align: right;"><strong>&nbsp;Wa yaa aqtoob wa yaa anjaab</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">وَيَا سَادَاتْ وَيَا أَحْبَابْ</h2>
+								<p style="text-align: left;"><strong>wa yaa saadaat wa yaa ahbaab</strong></p>
+
+								<h3 class="arabic" style="text-align: right;">وَأَنْتُمْ يَا أُولىِ اْلأَلْبَابْ </h2>
+								<p style="text-align: right;"><strong>Wa antum yaa ulil albaab</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">تَعَالَوْا وَانْصُرُوْا ِللهْ</h2>
+								<p style="text-align: left;"><strong>ta-&lsquo;alau wanshuruu lillaah</strong></p>
+
+								<p><em>Wahai para wali kutub, para wali yang dermawan. Wahai para sayyid dan wahai para habib.</em></p>
+								<p><em>Wahai engkau sekalian para wali yang berakal sempurna, Kemarilah dan tolonglah kami karena Alloh.&nbsp;</em></p>
+								<br>
+
+
+								<h3 class="arabic" style="text-align: right;">سَأَلْنَاكُمْ سَأَلْنَاكُمْ</h2>
+								<p style="text-align: right;"><strong>Sa-alnaakum sa-alnaakum</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">وَ لِلزُّلْفىَ رَجَوْنَاكُمْ</h2>
+								<p style="text-align: left;"><strong>wa lizzulfaa rojaunaakum&nbsp;&nbsp</strong></p>
+
+								<h3 class="arabic" style="text-align: right;">وَفىِ أَمْرٍ قَصَدْنَاكُمْ </h2>
+								<p style="text-align: right;"><strong>Wa fii amrin qoshodnaakum</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">فَشُدُّوْا عَزْمَكُمْ ِللهْ</h2>
+								<p style="text-align: left;"><strong>fashudduu azmakum lillah</strong></p>
+
+								<p><em>Dengan perantara engkau kami memohon dengan perantaraan engkau kami memohon, dengan mengharap do&rsquo;amu, kami dekat dengan Alloh.</em></p>
+								<p><em>Kami bermaksud dengan perantaraan engkau untuk mencapai tujuan, karena itu kokohkanlah kami karena Alloh</em></p>
+								<br>
+
+
+								<h3 class="arabic" style="text-align: right;">فَيَا رَبِّىْ بِسَادَاتِىْ</h2>
+								<p style="text-align: right;"><strong>Fa yaa robbii bisaadaatii</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">تَحَقَّقْ لىِ إِشَارَتىِْ</h2>
+								<p style="text-align: left;"><strong>tahaqqoqlii isyaarotii&nbsp</strong></p>
+
+								<h3 class="arabic" style="text-align: right;">عَسىَ تَأْتىِْ بِشَارَتىِْ </h2>
+								<p style="text-align: right;"><strong>&lsquo;asaa ta&rsquo;-tii bisyarootii</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">وَ يَصْفُوْ وَقْـتــُُـنَا للهْ</h2>
+								<p style="text-align: left;"><strong>wa yashfu waqtunaa lillah</strong></p>
+
+								<p><em>Wahai Tuhan kami, dengan perantaraan yang menjadi wali-wali, kokohkanlah petunjukMu kepada kami.</em></p>
+								<p><em>Semoga lekas datang kebahagiaan kami, dan semoga waktu kami bersih untuk untuk ibadah karena Alloh.</em></p>
+								<br>
+
+
+								<h3 class="arabic" style="text-align: right;">بِكَشْفِ الْحُجْبِّ وَالْعَيْنِ </h2>
+								<p style="text-align: right;"><strong>Bi kasyfil hujbi &lsquo;an-ainii</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">وَرَفْعِ الْبَيْنِ مِنْ بَيْنىِْ</h2>
+								<p style="text-align: left;"><strong>warof-&lsquo;il baini min baini </strong></p>
+
+								<h3 class="arabic" style="text-align: right;">وَطَمْسِ الْكَيْفِ وَاْلأَيْنِ</h2>
+								<p style="text-align: right;"><strong>Wa thomsil kaifi wal &lsquo;aini</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">بِنُوْرِ الْوَجْهِ يَا اللهْ</h2>
+								<p style="text-align: left;"><strong>binuuri wajhi ya Alloh.</strong></p>
+
+								<p><em>Dengan terbukanya tabir penutup mata kami, dan hilangkan penghalang antara kami dan Alloh</em></p>
+								<p><em>Dan terhapusnya keraguan bagaimana dan dimana Alloh. Dengan cahaya Dzat Engkau ya Alloh </em></p>
+								<br>
+
+
+								<h3 class="arabic" style="text-align: right;">صَلاَةُ اللهِ مَوْلاَنَا</h2>
+								<p style="text-align: right;"><strong>Sholatullohi maulaanaa</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">عَلىَ مَنْ بِالْهُدَى جَانَا</h2>
+								<p style="text-align: left;"><strong>&lsquo;alaa man bil hudaa jaanaa</strong></p>
+
+								<h3 class="arabic" style="text-align: right;">وَمَنْ بِالْحَقِّ أَوْلاَنَا </h2>
+								<p style="text-align: right;"><strong>wa man bil haqqi aulaanaa</strong></p>
+								
+								<h3 class="arabic" style="text-align: left;">شَفِيْعِ الْخَلْقِ عِنْدَ اللهْ</h2>
+								<p style="text-align: left;"><strong>syafi-&lsquo;il kholqi &lsquo;indalloh</strong></p>
+
+								<p><em>Wahai Tuhan kami semoga kesejahteraan Alloh dilimpahkan kepada orang yang datang dengan membawa petunjuk untuk kami.</em></p>
+								<p><em>Yaitu Nabi Muhammad yang memberikan Islam kepada kami, dan memberi syafaat kepada para makhluq disisi Alloh. </em></p>
+								<br>
+								<br>
+								<br>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item8">
+						<div class="content">
+							<div class="scroller">
+								<h2>Sholat Witir</h2><br>
+								<p>Yang kita laksanakan, adalah sholat witir sebanyak 11 roka&rsquo;at dengan tiap 2 roka&rsquo;at salam dan diakhiri dengan satu roka&rsquo;at.</p>
+								<p>Setiap selesai salam dari 2 rokaat salam, dilanjutkan dengan membaca do&rsquo;a sebagai-mana tertera di halaman 8 dan 9.</p>
+								<p>Sedangkan terakhir setelah salam dari rokaat yang ke-11 dibaca bersama do&rsquo;a sebagaimana tertera pada halaman 10 hingga akhir. Seluruh do&rsquo;a dibaca secara bersama-sama.</p>
+								
+								<p><strong>Doa Sholat Witir</strong></p>
+								<p><strong>dibaca setiap selesai dua rokaat Sholat Witir</strong></p>
+								<h2 class="arabic" style="text-align: center">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيْمِ</h2>
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ إِنــَّكَ عَـفُـوٌّ كَرِيْمٌ تــُحِبُّ الْعَفْوَ فَاعْفُ عَنَّا  3×  يَا كَرِيـْمُ</h2>
+								<p><strong>Allohumma innaka ‘afuwwung kariim, tuhibbul ‘afwa fa’-fu ‘annaa   3x  yaa kariim</strong></p>
+								<p><em>Ya Alloh, sesungguhnya Engkau Maha Pengampun Maha Pemurah, Engkau senang mengampuni, maka ampunilah kami  3x  wahai Yang Maha Pemurah.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبــَّنـَا ظَلَمْنَآ أَنــْفُسَنَا وَإِنْ لَمْ تَغْفِرْلَنَا وَتَرْحَمْنَا لَنَكُوْنــَنَّ مِنَ الْخَاسِرِيْنَ</h2>
+								<p><strong>Robbanaa dholamnaa anfusanaa wa illam taghfir lanaa watarhamnaa lanakuunanna minal khosirin</strong></p>
+								<p><em>Ya Alloh kami telah meng-aniaya diri kami sendiri, dan jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, niscaya pastilah kami termasuk orang-orang yang merugi.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبــَّنـَا آمَنـَّا بِمَا أنــْزَلْـتَ وَاتــَّبـَـعْـنَا الرَّسُوْلَ فَاكْــتــُـبْـنَـا مَعَ الشَّاهِدِيْنَ </h2>
+								<p><strong>Robbanaa aamannaa bimaa anzalta wat taba’-nar rosuula fak tubnaa ma'asy syaahidiin</strong></p>
+								<p><em>Ya Alloh kami beriman dengan segala ayat yang Engkau turunkan dan kami mengikuti rosulmu dan golongan kami dengan orang yang menyaksikan.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبَّنَا إِنــَّنـَّا سَمِعْنَا مُنـَادِيـًا يـُّنـَادِيْ لـِلإِيـْمـَانِ أنْ أمـِنـُوْا بـِرَبــِّكُمْ فَأمـَنــَّا</h2>
+								<p><strong>Robbanaa innanaa sami’-naa munadiyay yunaadii lil iimaani an aaminuu birobbikum fa-aamannaa</strong></p>
+								<p><em>Ya Alloh sesungguhnya kami mendengar seorang penyeru (nabi) yang menyerukan supaya iman agar beriman kepada Tuhanmu, maka kami beriman</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبــَّنـَا فَاغْفِرْ لَـنـَا ذُنـــُوْبـَنـَا وَكَــفِّــرْ عَـنَّا سـَيـِّئاتــِنــَا وَتـَوَفَّـنــَا مَعَ اْلأبـــْرَارِ</h2>
+								<p><strong>Robbanaa faghfir lanaa dzunuu-banaa, wakaffir ‘annaa sayyi-aatinaa, wa tawaffanaa ma-’al abroor</strong></p>
+								<p><em>Ya Alloh ampunilah dosa kami, dan hapuslah kesalahan kami, dan wafatkan kami beserta orang-orang yang taat padamu.</em></p>
+
+
+								<h2 class="arabic" style="text-align:right">رَبــَّنـَا وَأتــِنـَا مَا وَعَدْتــَّنـَا عَلى رُسُلِكَ وَلاَ تـــُخـْزِنــَا يــَـوْمَ الْقِــيَامَةْ إِنــَّكَ لاَ تــُخـْلـِفُ الْمـِيْعَادَ</h2>
+								<p><strong>Robbanaa wa aatinaa maa wa-‘ad tanaa ‘alaa rusulika walaa tuhzinaa yaumal qiyaamah. Innaka laa tukhliful mii-'aad</strong></p>
+								<p><em>Ya Alloh berikanlah kami apa-apa yang Engkau janjikan melalui lisan para rosulmu, dan jangan Engkau hinakan kami pada hari kiamat, sesungguhnya Engkau tidak mengingkari janji.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبـَّنـَا لاَ تـُزِغْ قُـلُـوْبـَنـَا بـَعْـدَ إِذْ هَدَيــْتــَنـَا وَهَبْ لَــنَا مِنْ لَدُنـــْكَ رَحْمَةً ؛ إنـــَّكَ أنـــْتَ الْوَهَّابُ</h2>
+								<p><strong>Robbanaa laa tuzigh quluubana ba’da idz hadaitanaa wa hab lanaa mil ladungka rohmah. innaka antal wahhaab</strong></p>
+								<p><em>Ya Alloh jangan engkau selewengkan hati kami setelah Engkau berikan petunjuk setelah Engkau berikan rahmat dari sisimu, sesungguhnya Engkau Maha Pemberi.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبــَّـنَا هَبْ لَــنَا مِنْ أزْوَاجـِنَا وَذُرِّيـــَّـاتـِـنَا قُرَّةَ أعْيُنْ ؛ وَجَعَـلْـنَا لِـلْـمُـتـــَّقِـيْنَ إِمَامًا</h2>
+								<p><strong>Robbanaa hab lanaa min azwaajinaa wa dzurriy yaatinaa qurrota ‘a’-yun, waja-‘alnaa lil muttaqiina imaamaa. </strong></p>
+								<p><em>Ya Alloh berikan kepada kami kebaha-giaan dari istri dan anak kami, dan jadikanlah kami imam dari orang-orang yang bertaqwa.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبَّنَا وَاجْعَلْـنَا مُسْلِمَـيْنِ لَكَ وَمِنْ ذُرِّيــَّتـِنَا أمَّةً مُّسْلِمَةً لَّكَ وَأرِنــَا مَنَاسِكَـنَا وَتــُبْ عَلَيـْنـَا ؛ إنــَّكَ أنــْتَ التــَّوَّابُ الرَّحِيْمُ</h2>
+								<p><strong>Robbanaa waj-‘alnaa muslimaini laka wamin dzurriy yatinaa ummatam muslimatal laka, wa arinaa manaasi-kanaa watub ‘alainaa ‘ innaka antat tawwaabur rohiim</strong></p>
+								<p><em>Ya Alloh jadikan kami orang-orang yang berserah diri padamu juga anak cucu kami sebagai ummat yang berserah diri dan tunjukkan pada kami cara beribadah kepadamu terimalah taubat kami, sesungguhnya Engkau Maha menerima taubat dan Maha Rahim.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبِّ اجْعَلْنِيْ مُقِيْمَ الصَّلاَةِ وَمِنْ ذُرِّيــَّتـِيْ ؛ رَبــَّنَا وَتـَقَبـَّلْ دُعَاءِ</h2>
+								<p><strong>Robbij-‘alnii muqiimash sholaati wamin dzurriyyatii; robbana  wa taqobbal du‘a’</strong></p>
+								<p><em>Ya Alloh jadikanlah kami orang yang menegakkan sholat dan begitu pula anak turun kami, Ya Alloh terimalah do'a kami.</em></p>
+
+								<h2 class="arabic" style="text-align:right">رَبــَّنَا اغْفِرْ لـِيْ وَلــِوَالــِدَيَّ وِلِلْمُؤْمِنِيـْنَ يـَوْمَ يـَقُـوْمُ الْـحِسَابُ</h2>
+								<p><strong>Robbanaghfir lii waliwaalidayya wa lil mu’-miniina yauma yaquumul hisaab</strong></p>
+								<p><em>Ya Alloh ampunilah kami, bagi orang tua kami, bagi orang mukmin pada saat hari hisab. </em></p>
+								<br>
+
+
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item9">
+						<div class="content">
+							<div class="scroller">
+								<h2 style="text-align: center"><strong>Do'a Sholat Witir</strong></h2>
+								<p style="text-align: center"><em>dari Al Ustadz Al Habib Alwi Al Idrus</em></p>
+
+								<h2 class="arabic" style="text-align:right"> (3×)  سُبْحَانَ الْمَلِكِ الْقُدُّوْسِ </h2>
+								<p><strong>Subhaanal malikil qudduusi   3x</strong></p>
+								<p><em>Maha suci Dzat yang Maha menguasai dan Maha suci.</em></p>
+
+								<h2 class="arabic" style="text-align:right">.سُبُّوْحٌ قُدُّوْسٌ رَّبُّ الْمَلاَئِكَةِ وَالرُّوْحِ</h2>
+								<p><strong>Subbuuhun quddusur robbul malaaikati war ruuh</strong></p>
+								<p><em>Maha Suci Tuhan yang menguasai para malaikat dan Malaikat Jibril </em></p>
+
+								<h2 class="arabic" style="text-align:right">جَلَّةِ السَّمَاوَاتُ وَالأرْضُ بـِالْعِزَّةِ وَالْجَبَرُوْتِ, وَتـَعَزَّزْتَ بِالْقُدْرَةِ وَقَهَرْتَ الْعِبَادَ بِالْمَوْتِ, اللهُمَّ إِنـِّيْ أعُوْذُ بـِرِضَاكَ مِنْ سَخَطِكَ, وَبــِمُعَافَاتـِكَ مِنْ عُقُوْبـَتـِكَ, وَأعُوْذُ بــِكَ مِنْـكَ, لاَ أحْصِىْ ثــَنـَـاءً عَلَـيْكَ أنـــْتَ كَمَا أثــْنَـيْتَ عَلى نــَفْسِكَ.</h2>
+								<p><strong>Jallatis samaawaatu wal ardlu bil ‘izzati wal jabaruut, wa ta-‘az zaz ta bil qudroti wa qohartal ‘ibaada bil mauut, Alloohumma innii a-‘udzu biridloka min sakhothika, wa bi mu-‘aafatika min ‘uquubatika, wa a-‘uudzu bika minka laa uhshii tsanaa-an ‘alaika anta kamaa atsnaita ‘alaa nafsika</strong></p>
+								<p><em>Langit bumi menjadi agung karena Keagungan dan KebesaranNya, Engkau menang karena kuasaMu dan Engkau Maha memaksa para hamba dengan kematian, Ya Alloh hindarkan dengan keselamatanmu dari kemurkaanmu, dan hindarkan dengan keselamatanmu dari siksamu, dan hindarkan dengan keselamatanmu dari qodlo qodarmu yang tidak baik bagi kami, saya tidak bisa memaksimalkan pujaan padamu sebagaimana engkau memuji atas dzat-Mu. </em></p>
+
+								<h2 class="arabic" style="text-align:right">لاَ إِلهَ إِلاَّ أنــْتَ سُبْحَانـَكَ إِنـــِّـيْ كُــنْـتُ مِنَ الـظَّالِـمِـيْنَ (٤٠ ×)</h2>
+								<p><strong>Laa ilaaha illaa anta subhaanaka innii kuntu minadh dhoolimiin 40x</strong></p>
+								<p><em>tiada tuhan melainkan Engkau, maha suci Engkau, sesungguhnya kami termasuk golongan orang-orang yang dholim</em></p>
+
+								<h2 class="arabic" style="text-align:right">بــِـسْمِ اللهِ الرَّحْمنِ الرَّحِيْمِ, اَلْحَمْدُ للهِ رَبِّ الْعَالَمِيْنَ, اللّهُمَّ صَلِّ وَسَلِّمْ عَلى سَيـِّدِنـَا مُحَمَّدٍ وَعَلى ألـِهِ وَصَحْبــِهِ أَجْمَعِيْنَ</h2>
+								<p><strong>Bismillaahirrahmaanirrahiim. Alhamdulillaahi robbil ‘aalamiin. Alloohumma sholli ‘alaa sayyidinaa Muhammadiw wa ‘alaa aalihii washohbihii ajma-‘iin</strong></p>
+								<p><em>Dengan nama Allah Yang Maha Pengasih lagi Penyayang. Segala puji bagi Alloh Tuhan seru sekalian alam. Ya Alloh semoga Engkau tambahkan rahmat ta’dzim dan keselamatan atas pemimpin kami Nabi Muhammad beserta keluarga dan sahabatnya semua</em></p>
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ إِنـِّيْ أَسْأَلــُكَ رَحْمَةً مِّنْ عِنْدِكَ تـَهْدِيْ بــِهَا قَـلْبــِيْ , وَتـَجْـمَـعُ بــِهَا شَمْلِيْ ,  وَتـَلُمُّ بــِهَا شَـعَـثِيْ , وَتـَرُدُّ بِهَا أُلــْفَتِيْ , وَتـُصْلِـحُ بــِهَا دِيْنيْ ,</h2>
+								<p><strong>Allohumma innii as-aluka rohmatam min ‘indika tahdii bihaa qolbii, wa taj ma-‘u bihaa syamlii, Wa talummu bihaa sya-‘atsii, wa taruddu bihaa ulfatii, wa tush lihu bihaa diinii,</strong></p>
+								<p><em>Ya Alloh sesungguhnya saya mohon kepadaMu rahmat dari sisimu, Engkau beri petunjuk dihatiku dengan rahmatMu, dan Engkau satukan kekuatanku dengan rahmatMu, dan Engkau kumpulkan urusan yang morat-marit dengan rahmatMu, dan Engkau kembalikan keakrabanku dengan rahmatMu, dan Engkau perbaiki agamaku dengan rahmatMu,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَتــَحْفَظُ بِهَا غَآئِـبــِيْ وَتــَرْفَعُ بــِهَا شَاهِدِيْ  وَتــُزَكِّيْ بـِهَا عَمَلِيْ, وَتــُبَـيِّـضُ بـِهَا وَجْهِيْ, وَتــُلْهِمُنِيْ بــِهَا رُشْدِيْ, وَتـَعْصِمُنِيْ بــِهَا مِنْ كُلِّ سُوْءٍ </h2>
+								<p><strong>wa tahfadzu bihaa ghoo-ibii, wa tarfa-‘u bihaa syaahidii, wa tuzakkii bihaa ‘amalii, wa tubayyidlu bihaa wajhii, wa tulhimunii bihaa rusydii, wa ta'-shimunii bihaa ming kulli  suu'.</strong></p>
+								<p><em>dan Engkau jaga segala milikku yang jauh dari aku dengan rahmatMu, dan Engkau angkat segala milikku yang ada dengan rahmatMu, dan Engkau sucikan amalku dengan rahmatMu, dan Engkau buat wajahku berseri-seri dengan rahmatMu, dan Engkau tunjukkan kebernaranku dengan rahmatMu, dan Engkau jaga dari segala keburukan dengan rahmatMu</em></p>
+								
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ إِنــِّيْ أَسْأَلــُكَ إِيــْمَانــًا دَائـِمًا,  يُـبَاشِرُ قَـلْـبــِيْ. وَأسْأَلـُكَ يَـقِـيْـنًا صَـادِقًا</h2>
+								<p><strong>Alloohumma innii as-aluka iimaanan daaimaa, yubaasyiru qolbii, wa as-aluka yaqiinans shoodiqoo</strong></p>
+								<p><em>Ya Alloh sesungguhnya aku mohon kepadaMu keimanan yang terus menerus yang menembus hatiku, dan memohon kepadaMu keyakinan yang sebenarnya</em></p>
+								
+								<h2 class="arabic" style="text-align:right">حَتــّى  أعْلَمَ أنـَّهُ لَنْ يُّـصِـيْـبَـنِيْ إِلاَّ مَا كَــتــَـبْتــَـهُ  عَلَيَّ, وَأَرْضِـنِيْ  بــِمَا قَـسَـمْـتــَهُ لِيْ</h2>
+								<p><strong>Hattaa a’-lama annahuu lay yushiibanii illaa maa katabtahu ‘alayya, wa ardlinii bimaa qosamtahuu lii.</strong></p>
+								<p><em>Sehingga aku menyadari bahwa tiada yang akan menimpa aku kecuali yang telah engkau takdirkan, dan ridlo atas segala yang Engkau bagikan bagiku </em></p>
+								
+								<h2 class="arabic" style="text-align:right">اللّــهُمَّ أَعْطِـنِيْ إِيـْـمَـانـــًا صَادِقًا, وَيَقِيْنًا لَــيْسَ بَـعْدَهُ كُــفْـرٌ, وَرَحْمَةً أَنــَالُ بــِهَا شَرَفَ كَرَامَـتِـكَ فيِ الدُّنـْيَا وَالآخِرَةِ</h2>
+								<p><strong>Allohumma a’-thinii iimaanans shoodiqoo, wayaqiinal laisa ba’dahuu kufr,  warohmatan anaalu bihaa syarofa karoomatika fid dun-yaa wal aakhiroh. </strong></p>
+								<p><em>Ya Alloh berilah kepada kami keimanan yang sebenarnya, dan keyakinan yang tiada pernah kafir setelahnya, dan mohon rohmat untuk memperoleh kemulyaan di dunia dan akhirat</em></p>
+								
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ  إِنـِّيْ أسْأَلـُكَ الصَّبْرَ عِنْدَ الْقَضَاءِ, وَالْفَوْزَ عِنْدَ اللِّقَاءِ, وَمَنَازِلَ الشُّهَدَاءِ, وَعَـيْـشَ السُّعَدَاءِ, وَالنَّصْرَ عَلى الأَعْدَاءِ, ومُـــرَافَقَةَ الأَنــْبــِيَاءِ</h2>
+								<p><strong>Allohumma innii as-alukash shobro ‘indal  qodloo-i wal fauza ‘indal liqoo-i, wa manaazilasy syuhadaa’.  Wa ‘aisas su-‘adaa-i, wan nashro ‘alal a’-daa-i, wa muroofaqotal ambiyaa-i.</strong></p>
+								<p><em>YaAlloh aku mohon kepadamu kesabaran ketika terjadi segala yang Engkau tetapkan, dan keselamatan ketika menghadapmu, dan derajad para syuhada’ Dan kehidupan yang bahagia, dan kemenangan atas lawan-lawan Mu, dan bisa menyertai para nabi</em></p>
+								
+								<h2 class="arabic" style="text-align:right">اللّهُـــمَّ إِنـِّيْ أُنــْزِلُ بــِكَ حَــاجَتِيْ, وَ إِنْ ضَـعُـفَ رَأْيـــِيْ, وَ قَـصُـرَ عَـمَـلِـيْ, وَافْـتــَـقَـرْتُ إِلى رَحْمَتِكَ </h2>
+								<p><strong>Allohumma innii unzila bika haajatii, wa in dlo-‘ufa ro’-yii, wa qoshuro ‘amalii, waftaqortu ilaa rohmatik,</strong></p>
+								<p><em>Ya Alloh sesungguhnya kami melaporkan hajatku padamu, meskipun usahaku sangat lemah, dan amalku sangat terbatas, dan saya sangat membutuhkan kasih sayang Mu,</em></p>
+								
+								<h2 class="arabic" style="text-align:right"> وَأَسْأَلــُكَ يَا قَاضِيَ الأُمُوْرِ, وَ يَا شَافِيَ الصُّدُوْرِ, كَمَا تُـجِـيْرُ بَيْنَ الْـبُحُوْرِ, أَنْ تُـجِـيْرَنــِيْ مِنْ عَذَابِ السَّعِيْرِ, وَمِنْ دَعْوَةِ الثــُّـبُـوْرِ, وَفِـتــْـنَةِ الْقُـبُـوْرِ</h2>
+								<p><strong>wa as aluka yaa qoodliyal umuur, wa yaa syaafiyas shuduur, kamaa tujiiru bainal bukhuur, an tujiironii min ‘adzaabis sa-‘iir, wa min da’-watits tsubuur, wa fitnatil qubuur.</strong></p>
+								<p><em>dan saya mohon kepada Mu wahai dzat yang memenuhi segala kebutuhan, yang menyembuhkan hati yang sakit, sebagaimana telah engkau pertemukan berbagai lautan, kami mohon melindungi kami dari siksaan neraka sa’ir, dan agar Engkau melindungi kami dari ajakan menuju kerusakan, dan siksaan kubur</em></p>
+								
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ  وَمَا ضَعُفَ عَنْهُ رَأْيــِيْ, وَقَصُرَ عَـنْهُ  عَمَـلِيْ وَ لَمْ تـَـبْـلُـغْـهُ نِـيَّـتِيْ وَأُمْنِـيَّـتِيْ مِنْ خَيْرٍ وَّعَدْتـَّهُ أَحَدًا مِنْ خَـلْـقِـكَ , فَإِنــِّـيْ رَاغِبٌ إِلَـيْكَ فِـيْهِ وَأَسْأَلــُكَهُ يَا رَبَّ الْعَالَمِيْنَ</h2>
+								<p><strong>Alloohumma wamaa dlo-‘ufa ‘anhu ro’-yii, wa qoshuro ‘anhu ‘amalii wa lam tablugh-hu niyyatii, wa umniyyatii, min khoiriw wa-‘ad tahuu ahadam min kholqika, fa inni rooghibun ilaika fiihi wa as alukahuu yaa robbal ‘aalamiin.</strong></p>
+								<p><em>Ya Alloh segala sesuatu yang usahaku tidak mampu mencapainya, amal perbuatankupun terbatas dari hal itu, niat maupun cita-citaku belum pernah sampai kesana, tentang segala kebaikan yang engkau janjikan pada seorang  dari para makhlukmu, maka aku juga menginginkannya, meskipun aku belum pernah berniat atau memintanya wahai dzat Penguasa alam semesta.</em></p>
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ اجْعَلْنَا هَادِيـْنَ مُهْتــَدِيْنَ, غَيْرَ ضَالِّـيْنَ وَلاَ مُضِلِّـيْنَ, حَرْبـًا لأَعْدَائِكَ, وَسِلْمًا لأَوْلـِيَائِكَ, نـُحِبُّ بـِحُبِّكَ النـَّاسَوَنـُعَادِى بِعَدَاوَتـِكَ مَنْ خَالَفَكَ مِنْ خَلْقِكَ</h2>
+								<p><strong>Allohummaj ‘alnaa haadiina muhtadiin, ghoiro dloolliina wa laa mudlilliin, harbal li-a’-daa-ik, wa silmal li-auliyaa-ik, nuhibbu bi hubbikan naas wa nu-‘aadii bi-‘adaawatika man khoolafaka min kholqik.</strong></p>
+								<p><em>Ya jadikanlah kami menjadi orang yang memberi petunjuk  dan melaksanakan petunjuk, bukan orang yang sesat dan menyesatkan, kami menyatakan perang terhadap musuh-musuhmu, dan damai terhadap para kekasihmu, berdasar kecintaanmu Ya Alloh, kami mencintai manusia, dengan rasa permusuhanmu pula kami memusuhi orang yang menyalahi Engkau</em></p>
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ هذَا الدُّعَاءُ وَمِنْكَ اْلإِجَابَةُ, وَهذَا الْجُهْدُ وَعَلَـيْكَ التــُّكْـلاَنُ, وَإنــَّا للهِ وَإنــَّا إِلَـيْهِ رَاجِعُوْنَ, وَلاَ حَوْلَ وَلاَ قُوَّةَ إلاَّ بِاللهِ الْعَلِيِّ الْعَظِيْمِ, ذِى الْحَبْلِ الشَّدِيْدِ, وَالأَمْرِِ الرَّشِيْدِ , أَسْأَلــُكَ الأَمْنَ يَوْمَ الْوَعِيْدِوَالْجَنَّةَ يـَوْمَ الْخُلُوْدِ</h2>
+								<p><strong>Alloohumma haadzad du-‘aa-u wa mingkal ijaabah, wa haadzal juhdu wa ‘alaikat tuklaan, wa innaa lillaahi wa innaa ilaihi rooji-‘uun. Wa laa haula wa laa quwwata illaa billaahil ‘aliyyil ‘adhiim, dzil hablisy syadiid, wal amrir rosyiid, as alukal amna yaumal wa-‘iid wal jannata yaumal khuluud</strong></p>
+								<p><em>Ya Alloh, inilah do’da kami, dan hanya Engkau kami berharap dikabulkan, dan inilah usaha maksimal kami, Engkaulah tempat berserah diri, dan sesungguhnya kami milik Allah dan kepadanya kami kembali, dan tiada daya upaya dan tiada kekuatan melainkan atas pertolongan Allah yang maha Agung, yang memiliki tali yang kuat, dan perintah yang benar, Aku  mohon padamu rasa aman dihari terjadi ancaman, dan surga di hari akhirat </em></p>
+
+								<h2 class="arabic" style="text-align:right">مَعَ الْمُقَرَّبــِيْنَ الشُّهُوْدِ, وَالرُّكــَّعِ السُّجُوْدِ, وَالْمُوْفـِيْنَ لَكَ بِالْعُهُوْدِ, إِنــَّكَ رَحِيْمٌ وَّدُوْدٌ, وَأَنــْتَ تـَفْعَلُ مَا تـُرِيْدُ, سُبْحَانَ مَنْ تَعَطَّفَ بِالْعِزِّ وَقَالَ بِهِ, سُبْحَانَ مَنْ لَبــِسَ الْمَجْدَ وَتـَكَرَّمَ بـِهِ, سُبْحَانَ مَنْ لاَ  يَـنْـبَـغِيْ الـتــَّـسْـبِـيْـحُ إِلاَّ لَهُ, سُبْحَانَ ذِى الْفَضْلِ وَالـنِّـعَـمِ, سُبْحَانَ ذِى الْـقُـدْرَةِ وَالْكَرَمِ, سُبْحَانَ ذِى الْجَلاَلِ وَ اْلإِكْرَامِ</h2>
+								<p><strong>ma-‘al muqorrobiinasy syuhuud, war ruk ka-‘is sujuud, wal muufiina laka bil ‘uhuud, innaka rohiimuw waduud wa anta taf-‘alu maa turiid, subhaana man ta-‘ath thofa bil ‘izzi wa qoola bih, subhaana mal labisal majda wa takarroma bih, subhaana mal laa yambaghit tasbiihu illaa lahu, subhaana dzil fadl-li wan ni-‘am, subhaana dzil qudroti wal karom. Subhaana dzil jalaali wal ikroom</strong></p>
+								<p><em>Beserta orang-orang yang menyaksikan, dan orang-orang yang ruku’ dan sujud, dan orang-orang yang memenuhi janji kepada Mu, sesungguhnya Engka maha Pengasih dan maha Penyayang, dan Engkau melakukan apa yang Engkau inginkan, maha suci Alloh yang memiliki sifat kemenangan, maha suci Alloh yang memiliki sifat keagungan dan kemulyaan, maha suci Alloh yang hanya boleh bertasbih kepada Nya, maha suci Alloh yang memiliki segala karunia dan kenikmatan, maha suci Alloh yang memiliki kekuasaan dan sifat pemurah, Maha suci Alloh yang memiliki sifat keagungan dan kemulyaan,</em></p>
+
+								<h2 class="arabic" style="text-align:right">سُبْحَانَ الَّذِى أَحْصى كُلَّ شَيْئٍ بــِـعِـلْـمِـهِ</h2>
+								<p><strong>subhaanal ladzii ahshoo kulla syai-im bi-‘ilmih.</strong></p>
+								<p><em>maha suci Alloh yang menghitung segala sesuatu dengan ilmunya</em></p>
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ اجْعَلْ لِى نــُوْرًا فيِ قَلْبِيْ,</h2>
+								<p><strong>Alloohummaj ‘al lii nuuronf fii qolbii</strong></p>
+								<p><em>Ya Alloh jadikan bagi kami cahaya dalam hatiku, </em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا فيِ  قَبْرِيْ,</h2>
+								<p><strong>wa nuuronf fii qobrii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya dalam kuburku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا فيِ سَمْعِيْ, </h2>
+								<p><strong>wa nuuronf fii sam-‘ii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada pendengaranku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنـُوْرًا فيِ بَصَرِيْ,</h2>
+								<p><strong>wa nuuronf fii bashorii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada penglihatanku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنـُوْرًا فيِ شَعْرِيْ, </h2>
+								<p><strong>wa nuuronf fii sya’-rii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada rambutku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا فيِ بَشَرِيْ,</h2>
+								<p><strong>wa nuuronf fii basyarii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada kulitku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا فيِ لَحْمِيْ,</h2>
+								<p><strong>wa nuuronf fii lahmii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada dagingku, </em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا فيِ دَمِيْ,</h2>
+								<p><strong>wa nuuronf fii damii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada darahku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنـُوْرًا فيِ عِظَامِيْ,</h2>
+								<p><strong>wa nuuronf fii ‘idhoomii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada tulangku, </em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنـُوْرًا فيِ عَصَبِيْ,</h2>
+								<p><strong>wa nuuronf fii ‘ashobii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya pada urat sarafku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا مِّنْ بَيْنِ يَدَيَّ,</h2>
+								<p><strong>wa nuurom mim baini yaday.</strong></p>
+								<p><em>dan jadikan bagi kami cahaya di depanku</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا مِنْ خَلْفِيْ, </h2>
+								<p><strong>Wa nuurom min kholfii,</strong></p>
+								<p><em>dan jadikan bagi kami cahaya di  belakangku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا عَنْ يَّمِيْنِيْ, </h2>
+								<p><strong>wa nuuron ‘ay yamiinii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya di kananku</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا عَنْ شِمَالِيْ,</h2>
+								<p><strong>wa nuuron ‘ans syimaalii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya di kiriku,</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا مِنْ فَوْقِيْ,</h2>
+								<p><strong>wa nuurom minf fauqii, </strong></p>
+								<p><em>dan jadikan bagi kami cahaya di atasku, </em></p>
+
+								<h2 class="arabic" style="text-align:right">وَنــُوْرًا مِنْ تَحْتِيْ ,</h2>
+								<p><strong>wa nuurom min tahtii.</strong></p>
+								<p><em>dan jadikan bagi kami cahaya di bawahku.</em></p>
+
+
+								<h2 class="arabic" style="text-align:right">اللّهُمَّ زِدْنِيْ نــُوْرًا, وَأَعْطِنِيْ نــُوْرًا, وَاجْعَلْنِيْ نــُوْرًا , وَاجْعَلْ لِيْ نــُوْرًا, بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِيْنَ</h2>
+								<p><strong>Allohumma zidnii nuuroo, wa a’-thinii nuuroo, waj-‘al nii nuuroo, waj-‘al lii nuuroo, birohmatika yaa arkhamar roohimiin.</strong></p>
+								<p><em>Ya Alloh tambahkan aku cahaya, dan berikan kami cahaya, dan jadikan kami cahaya, dan jadikan bagi kami cahaya, dengan rahmat Mu Dzat yang rohman rahiim.</em></p>
+
+								<h2 class="arabic" style="text-align:right">وَصَلَّى اللهُ عَلى سَيـِّدِنـَا مُحَمَّدٍ وَعَلى أَلـِهِ وَصَحْبــِهِ وَسَلَّمْ. وَالْحَمْدُ للهِ رَبِّ الْعَالَمِيْنَ .آمِيْنَ. الفَاتِحَةْ</h2>
+								<p><strong>Wa shollalloohu ‘alaa sayyidinaa Muhammadiw wa-‘alaa aalihii wa shohbihii wa sallam. Wal hamdu lillaahirobbil ‘aalamiin. Amiin. Al faatihah.</strong></p>
+								<p><em>Dan semoga sholawat dan salam Alloh atas junjungan kita Nabi Muhammad dan atas keluarga dan shohabat.  Dan segala puji bagi Alloh Tuhan seru sekalian alam. Amin </em></p>
+
+								<h2 class="arabic" style="text-align:right">(١٠٠ x)  سُـبْحَانَ اللهِ وَبــِـحَـمْـدِهِ سُبْحَانَ اللهِ الْـعَـظِـيْمِ أَسْـتــَـغْـفِـرُ اللهَ</h2>
+								<p><strong>Subhaanallohi wa bihamdihi subhaa-nallohil 'adhiim astaghfirulloh 100x</strong></p>
+								<p><em>Maha suci Alloh dan segala puji baginya, Maha suci Alloh yang maha agung, aku mohon ampun kepada Alloh </em></p>
+
+								<h2 class="arabic" style="text-align:right">(١٠٠ x) أَسْتــَغْفِرُ اللهَ الْعَظِيْمَ وَ أَتـُوْبُ إِلَيْهِ</h2>
+								<p><strong>Astaghfirulloohal ‘adhiim wa atuubu ilaih   100x</strong></p>
+								<p><em>Aku mohon ampun kepada Alloh yang maha Agung dan aku bertaubat kepadaNya </em></p>
+								
+								<h2 class="arabic" style="text-align:right">(١٠٠ x) رَبِّ اغْفِرْلـِيْ وَارْحَمْنِيْ وَتـُبْ عَلَيَّ إِنـَّكَ أَنـْتَ التــَّوَّابُ الرَّحِيْمِ </h2>
+								<p><strong>Robbighfir lii warhamnii wa tub ‘alayya innaka antat tawwaabur rohiim   100x</strong></p>
+								<p><em>Ya Alloh ampuni aku, kasihi aku, dan terima taubatku, sesungguhnya Engkau maha penerima taubat dan maha kasih.</em></p>
+								
+								<h2 class="arabic" style="text-align:right">(100×)  رّبِّ اغْـفِـرْلـِيْ وَ لـِوَالـِدَيَّ وَارْحَـمْـهُـمَا كَــمَا رَبـَّيـَانِيْ صَـغِـيْـرًا</h2>
+								<p><strong>Robbighfir lii waliwaalidayya war hamhumaa kamaa robbayaanii shoghiiroo    100x</strong></p>
+								<p><em>Ya Alloh ampunilah aku dan kedua orangtuaku, sayangi mereka berdua seperti mereka mendidikku saat kecil.  </em></p>
+
+								<h2 class="arabic" style="text-align:right">(١٠٠ x/٣٠٠ x/٥٠٠ x/١٠٠٠ x)  اللّـهُمَّ صَلِّ عَلى سَيـِّدِنــَا مُحَمَّدٍ عَـبْدِكَ وَرَسُـوْلـِكَ النـَّبــِيِّ اْلأُمِّيِّ وَعَلىَ آلـِهِ وَصَـحْـبــِه وَسَلِّمْ  </h2>
+								<p><strong>Allohumma sholli ‘alaa sayyidinaa Muhammadin ‘abdika wa rosuulikan nabiyyil ummiyyi wa ‘alaa aalihii washohbihii wasallim 100x / 300x / 500x / 1000x</strong></p>
+								<p><em></em></p>
+
+
+								<h2 class="arabic" style="text-align:right">مَوْلاَيَ صَلِّ وَ سَـلِّـمْ دَائـِمًا أبـَدَا  </h2>
+								<p style="text-align:right"><strong>maulaa ya shoolli wa sallim daa-iman abadaa</strong></p>
+
+								<h2 class="arabic" style="text-align:left">عَلى حَبــِيْـبــِكَ خَيْرِ الْخَـلْـقِ كُـلِّـهِمِ</h2>
+								<p style="text-align:left"><strong>‘alaa habiibiika khoiril kholqi kullihimi</strong></p>
+
+								<p><em>Ya Alloh semoga engkau tambahkan rahmat keselamatan selama-lamanya, atas kekasih Mu sebaik-baik ciptaan semuanya</em></p>
+
+
+								<h2 class="arabic" style="text-align:right">هُوَ الْـحَبــِيْـبُ الَّـذِىْ تـُرْجَى شَفَاعَتــُهُ </h2>
+								<p style="text-align:right"><strong>Huwal habiibulladzii turjaa syafaa-‘atuhu</strong></p>
+
+								<h2 class="arabic" style="text-align:left"> لِكُـلِّ هَوْلٍ مِّنَ الأَهْوَالِ مُقْتــَحِمٍ</h2>
+								<p style="text-align:right"><strong>Likulli haulim minaal ahwaali muqtahimin</strong></p>
+
+								<p><em>Dia kekasih yang selalu diharapkan safaatnya, Untuk menghadapi segala keributan yang menimpa</em></p>
+
+
+								<h2 class="arabic" style="text-align:right">يَا رَبِّ بِالْمُصْطَفىَ بـَلِّـغ ْ مَقَاصِدَنــَا</h2>
+								<p style="text-align:right"><strong>Yaa robbi bil musthofaa, balligh maqoosidanaa</strong></p>
+
+								<h2 class="arabic" style="text-align:left">وَاغْفِرْ لَنَا مَا مَضى يَا وَاسِعَ الْكَـرَمِ</h2>
+								<p style="text-align:left"><strong>Waghfir lanaa maa madloo, yaa waasi’al  karomi </strong></p>
+
+								<p><em>Ya Alloh dengan berkah Nabi yang terpilih, sampaikan keinginan kami, Ampuni kami dosa yang lalu, wahai yang maha luas sifat pemurahnya </em></p>
+
+
+								<h2 class="arabic" style="text-align:right">آمِيْنْ يَا الله يَا رَحْمنْ يَا رَحِيْمِ </h2>
+
+								<h2 class="arabic" style="text-align:left">أَنــْتَ الْجَوَّادُ الْحَلِيمُ وَ أَنـْتَ نِعْمَ الْمُعِيْنْ</h2>
+
+
+								<h2 class="arabic" style="text-align:right">رَبَّنَا أَحْسِنْ لَنَا ظَاهِرًا وَبَاطِنًا  </h2>
+
+								<h2 class="arabic" style="text-align:left">مَعَ حُسنِ الظَّنِّ بــِحَضْرَتــِكَ يَا مَنَّانْ</h2>
+
+								<p><strong>DUH GUSTI KULO NYUWUN SEHAT MANAH LAN ROGO</strong></p>
+								
+								<p><strong>LAN WARAS BADAN KULO PUTRO LAN KELUARGO</strong></p>
+								
+								<p><strong>DUH GUSTI NYUWUN LANGGENG EMUT ING PANJENENGAN</strong></p>
+								
+								<p><strong>SOHO TANSAH NYUKURI SEDOYO KENIKMATAN</strong></p>
+
+								<p><strong>DUH GUSTI DZAT KANG NGREKSO NULUNG LAN KAPERCOYO</strong></p>
+								
+								<p><strong>MUGI PARINGO BERKAH DATENG KULO SEDOYO</strong></p>
+								
+								<p><strong>DUH GUSTI MAHA MIRENG MIRSANI LAN NGIJENI</strong></p>
+								
+								<p><strong>NYUWUN KULO ING NIKMAT INGKANG TANPO ITUNGAN</strong></p>
+								
+								<p><strong>DUH GUSTI INGKANG WELAS KANG KIYAT LAN WASPODO</strong></p>
+								
+								<p><strong>NYUWUN WULUJENG SAKING SEDOYO PANCOBOYO</strong></p>
+
+								<h2 class="arabic" style="text-align:right">يَا  حَفِيْظُ يَا نَصِيْرُ يَا وَكِيْلُ يَا الله  </h2>
+
+								<h2 class="arabic" style="text-align:left">بَارِكْ لَنَا وَلَهُمْ أَجْمَعِيْنَ يَا اللهُ</h2>
+
+								<h2 class="arabic" style="text-align:center">اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَيْهِ</h2>
+
+								<h2 class="arabic" style="text-align:center">دُعَاءُ</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="item10">
+						<div class="content">
+							<div class="scroller">
+								<h2>Penutup</h2>
+								<p>Ucapan terima kasih yang tak terhingga kepada guru kami Ust. Drs. KH. Marzuqi Mustamar, M.Ag., Pengasuh Pondok Pesantren Sabilur Rosyad Nggasek yang telah membantu kami dalam menterjemahkan do&rsquo;a witir ini.</p>
+								<p>Akhirnya kita bermohon kehadirat Alloh SWT, semoga amal ibadah kita semua diterima oleh Alloh SWT. dan termasuk orang yang selalu dalam Ridlo Allah SWT. Amin.</p>
+								<p>Mohon maaf bila ada kekurangan dan kekhilafan.</p>
+								<p>Wassalamu&rsquo;alaikum wr. Wb.</p>
+								<p>Penyusun</p>
+								<br>
+								<p><strong>Irfan Hakim / Abdul Halim</strong></p>								
+							</div>
+						</div>
+					</div>
+
+					<div class="bb-item" id="author">
+						<div class="content">
+							<div class="scroller">
+								<p><strong>Zikir Maleman Sabililah</strong></p>
+								<p>Penyusun Naskah : Ust. H. Irfan Hakim Halim</p>
+								<p></p>
+								<p>Created in Ramadhan 1438 H</p>
+								<br>
+								<br>
+								<p>Fii Sabilillah dev</p>
+								<p>contact the developer</p>
+								<p>tel: +6282331013333</p>
+								<p>mumtazhaqiqy@gmail.com</p>
+								<p>Morotanjek - Singosari - Malang</p>
+								<br>
+								<br>
+								<br>
+								<p>Semoga Bermanfaat :)</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				
+				<nav>
+					<span id="bb-nav-prev">&larr;</span>
+					<span id="bb-nav-next">&rarr;</span>
+					<input type="button" id="fontPlusBtn" value="A+"/>
+					<input type="button" id="fontMinusBtn" value="A-"/>
+				</nav>
+
+
+			
+
+				<span id="tblcontents" class="menu-button">Table of Contents</span>
+
+			</div>
+				
+		</div><!-- /container -->
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mousewheel.js"></script>
+		<script src="js/jquery.jscrollpane.min.js"></script>
+		<script src="js/jquerypp.custom.js"></script>
+		<script src="js/jquery.bookblock.js"></script>
+		<script src="js/page.js"></script>
+		<script>
+			$(function() {
+
+				Page.init();
+
+			});
+		</script>
+
+		<script>
+			$("#fontPlusBtn").click(function (){
+			    $(".bb-bookblock > *").css("font-size", function(i, value) {
+			        return parseInt(value) + 1;
+			    });
+			});
+			$("#fontMinusBtn").click(function (){
+			    $(".bb-bookblock > *").css("font-size", function(i, value) {
+			        return parseInt(value) - 1;
+			    });
+			});
+
+		</script>
+	</body>
+</html>
